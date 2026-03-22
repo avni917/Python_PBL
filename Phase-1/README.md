@@ -1,15 +1,14 @@
-Phase 1 – Project Planning and Data Preprocessing
-Project Title:
-Network Intrusion Detection for Cyber Security.
+Phase 1 – Project Planning and Data Preprocessing.
+Project Title: Network Intrusion Detection for Cyber Security.
 
 Project Description:
 This project focuses on analyzing network data using Machine Learning techniques to identify normal and abnormal network behavior. Phase 1 includes project planning, synopsis preparation, dataset creation, and data preprocessing.
 
 Objectives:
-Understand the problem of network intrusion detection.
-Create a synthetic network dataset.
-Perform data organization and preprocessing.
-Prepare data for machine learning models.
+1.Understand the problem of network intrusion detection.
+2.Create a synthetic network dataset.
+3.Perform data organization and preprocessing.
+4.Prepare data for machine learning models.
 
 Phase 1 Contents:
 Project Synopsis.
@@ -27,7 +26,7 @@ Scikit-learn (for preprocessing)
 
 Dataset Details:
 The dataset contains:
-Packet Size, Connection Duration, Error Rate, Label (Normal / Intrusion)
+Packet Size, Connection Duration, Error Rate, Label (Normal / Attack)
 
 ⚙️ Steps Performed:
 Created synthetic dataset using Python.
