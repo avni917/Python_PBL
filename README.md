@@ -21,15 +21,20 @@ Phase 1 – Project Planning & Data Preprocessing.
    4.Data organization and preprocessing
    5.Initial data analysis
 
+Phase 2: Model Training.
+  This phase includes:
+   1.Loaded preprocessed dataset from Phase 1.
+   2.Performed train-test split (80:20).
+   3.Applied feature scaling using StandardScaler.
+   4.Used Elbow Method to determine optimal value of K.
+   5.Trained KNN model using the selected K value.
+
 Technologies Used: Python, Pandas, NumPy, Matplotlib / Seaborn, Scikit-learn
 
 Future Work:
-1.Train Machine Learning models
-2.Evaluate model performance
-3.Visualize results and predictions
+1.Evaluate model performance
+2.Visualize results and predictions
 
 Team Members:
   Avni Srivastava
   Jigyasa Rana
-
-
