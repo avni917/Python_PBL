@@ -26,8 +26,9 @@ Phase 2: Model Training.
    1.Loaded preprocessed dataset from Phase 1.
    2.Performed train-test split (80:20).
    3.Applied feature scaling using StandardScaler.
-   4.Used Elbow Method to determine optimal value of K.
-   5.Trained KNN model using the selected K value.
+   4.Trained multiple models (KNN, Logistic Regression,Decision Tree, Random Forest)  
+   5.Used Elbow Method to select optimal K value  
+   6.Evaluated models using accuracy, confusion matrix and classification report  
 
 Technologies Used: Python, Pandas, NumPy, Matplotlib / Seaborn, Scikit-learn
 
