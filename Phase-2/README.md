@@ -1,33 +1,44 @@
- Phase 2: Model Training
-🔹 Overview
-In this phase, the preprocessed dataset is used to train a machine learning model. The focus is on preparing the data for training, selecting optimal parameters, and building the model.
+# 📌 Phase 2: Model Training and Evaluation
 
-🔹 Steps Performed:
+Overview:
+In this phase, the preprocessed dataset is used to train and evaluate multiple machine learning models.
 
-1. Load Preprocessed Dataset:
-The cleaned dataset from Phase 1 is loaded for training.
+ Steps Performed:
 
-2. Feature and Label Separation:
-Features (X) and target variable (Label) are separated.
+ 1. Data Loading
+- Loaded the preprocessed dataset from Phase 1.
 
-3. Train-Test Split:
-Dataset is split into training and testing sets using an 80:20 ratio.
+ 2. Feature and Label Separation
+- Split dataset into features (X) and target variable (Label).
 
-4. Feature Scaling:
-Standardization is applied using StandardScaler.
-Scaling is performed after splitting to avoid data leakage.
+ 3. Train-Test Split
+- Data split into training and testing sets (80:20 ratio).
 
-5. Optimal K Selection (Elbow Method):
-Different values of K (1 to 20) are tested.
-Error rate is calculated for each K.
-The optimal K value is selected based on minimum error.
+ 4. Feature Scaling
+- Applied StandardScaler to normalize the data.
+- Scaling performed after splitting to avoid data leakage.
 
-6. Model Training:
-K-Nearest Neighbors (KNN) algorithm is used.
-Final model is trained using the optimal K value.
+ 5. Model Training
+Trained multiple models:
+- K-Nearest Neighbors (KNN)
+- Logistic Regression
+- Decision Tress Classifier
+- Random Forest Classifier
 
-🔹 Output:
-Trained KNN model
-Elbow method graph for K selection
+ 6. Hyperparameter Tuning
+- Used Elbow Method to find optimal value of K for KNN.
 
-🔹Note: Model evaluation (accuracy, confusion matrix, etc.) will be performed in Phase 3.
+ 7. Model Evaluation
+- Evaluated models using:
+  - Accuracy Score
+  - Confusion Matrix
+  - Classification Report
+    
+Output
+- Trained models
+- Performance comparison of models
+- Elbow method graph
+
+Conclusion
+Multiple models were trained and evaluated
+
