@@ -28,13 +28,22 @@ Phase 2: Model Training.
    3.Applied feature scaling using StandardScaler.
    4.Trained multiple models (KNN, Logistic Regression,Decision Tree, Random Forest)  
    5.Used Elbow Method to select optimal K value  
-   6.Evaluated models using accuracy, confusion matrix and classification report  
+   6.Evaluated models using accuracy, confusion matrix and classification report 
+
+Phase 3: Model Selection and Testing
+  1.Compared performance of all models  
+  2.Selected Random Forest as the best model  
+  3.Reason for selection:
+     - Highest accuracy  
+     - Balanced performance  
+     - Fewer misclassifications  
+  4.Tested final model on unseen data  
+  5.Verified predictions using:
+     - Normal samples  
+     - Attack samples  
+Model showed good generalization and reliability. 
 
 Technologies Used: Python, Pandas, NumPy, Matplotlib / Seaborn, Scikit-learn
-
-Future Work:
-1.Evaluate model performance
-2.Visualize results and predictions
 
 Team Members:
   Avni Srivastava
