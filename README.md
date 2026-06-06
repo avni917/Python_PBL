@@ -9,8 +9,7 @@ Objective:
 3.Prepare and preprocess data for model training.
 
 Project Status:
-Completed: Phase 1 – Project Planning, Synopsis and Data Preprocessing
-Upcoming: Model Training, Evaluation and Deployment
+Completed
 
 Phase Details:
 Phase 1 – Project Planning & Data Preprocessing.
@@ -34,7 +33,7 @@ Phase 3: Model Selection and Testing
   1.Compared performance of all models  
   2.Selected Random Forest as the best model  
   3.Reason for selection:
-     - Highest accuracy  
+     - Random Forest achieved 97% accuracy on test data 
      - Balanced performance  
      - Fewer misclassifications  
   4.Tested final model on unseen data  
